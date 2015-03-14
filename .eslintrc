@@ -1,0 +1,16 @@
+{
+    "rules": {
+        "quotes" : [2, "single", "avoid-escape"],
+        "no-multi-spaces": [1, {
+            "exceptions": {
+                "VariableDeclarator": true,
+                "AssignmentExpression": true
+            }
+        }],
+        "no-use-before-define": false,
+        "no-underscore-dangle": false
+    },
+    "env":{
+        "node": true
+    }
+}

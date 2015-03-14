@@ -1,0 +1,24 @@
+{
+  "name": "states-js",
+  "version": "0.0.1",
+  "description": "State-Machine Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "states"
+  ],
+  "author": "Quentin Roy <quentin@quentinroy.fr>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "gulp": "^3.8.11",
+    "gulp-mocha": "^2.0.0",
+    "mocha": "^2.2.1"
+  },
+  "repository": "https://github.com/QuentinRoy/states-js.git",
+  "dependencies": {
+    "underscore": "^1.8.2"
+  }
+}
