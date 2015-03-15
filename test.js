@@ -4,7 +4,7 @@
 var expect = require('chai').expect;
 var State  = require('./states');
 
-describe('Simple FSM', function(){
+describe('Simple FSM Programmatically', function(){
     var stateMachine;
     afterEach(function() {
         stateMachine = null;
@@ -106,4 +106,7 @@ describe('Simple FSM', function(){
             expect(stateMachine.current).to.be.equal('warm');
         });
     });
+
+    describe('Simple FSM Declaratively', function(){});
+
 });
