@@ -1,4 +1,4 @@
 States-JS
 ---------
 
-Just another state-machine library for Javascript
+Just another state-machine library for Javascript (project ongoing)
